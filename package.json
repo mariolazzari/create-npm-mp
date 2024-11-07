@@ -1,0 +1,32 @@
+{
+  "name": "create-npm-mp",
+  "version": "1.0.0",
+  "description": "Create npm package",
+  "keywords": [
+    "npm",
+    "typescript"
+  ],
+  "homepage": "https://github.com/mariolazzari/create-npm-mp",
+  "bugs": {
+    "url": "https://github.com/mattpocock/create-npm-mp/issues"
+  },
+  "author": "Mario Lazzari <mario.lazzari@gmail.com> (https://mariolazzari.it)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariolazzari/create-npm-mp.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  }
+}
